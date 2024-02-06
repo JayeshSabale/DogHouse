@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  padding: 36px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background-color: darkorchid;
+  padding: 20px;
+}
+
+.nav--logo {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.nav--title {
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.nav--projectNO {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 8px;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  background-color: darkorchid;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form--input {
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+}
+
+.meme--image {
+  max-width: 100%;
+}
+
+.meme {
+  position: relative;
+  left: 40%;
+}
+
+.meme > img {
+  border-radius: 5px;
+  border-color: black;
+  width: 200px;
+  height: 200px;
+}
+
+.meme--text {
+  color: red;
+}
+
+.top {
+  position: absolute;
+  bottom: 350px;
+  left: 80px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 50px;
+  left: 80px;
+}
+
+.number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: #c35600;
+  color: #fff;
+}
